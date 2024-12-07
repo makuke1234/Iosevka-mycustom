@@ -1,16 +1,17 @@
-[buildPlans.IosevkaCustomSerif]
-family = "Iosevka Custom Serif Maku"
+[buildPlans.IosevkaCustomSans]
+family = "Iosevka Custom Sans Maku"
 spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-  [buildPlans.IosevkaCustomSerif.variants]
+  [buildPlans.IosevkaCustomSans.variants]
   inherits = "ss12"
 
-    [buildPlans.IosevkaCustomSerif.variants.design]
+    [buildPlans.IosevkaCustomSans.variants.design]
     six = "closed-contour"
     nine = "closed-contour"
+	zero = "slashed"
     capital-a = "round-top-serifless"
     capital-g = "toothed-serifless-hooked"
     capital-m = "hanging-serifless"
@@ -34,9 +35,11 @@ exportGlyphNames = false
   inherits = "ss12"
 
     [buildPlans.IosevkaCustomSlab.variants.design]
+	three = "flat-top-serifed"
     six = "closed-contour"
     eight = "two-circles"
     nine = "closed-contour"
+	zero = "slashed"
     capital-a = "round-top-base-serifed"
     capital-g = "toothed-serifless-capped"
     capital-j = "serifed-both-sides"
