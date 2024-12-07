@@ -1,14 +1,14 @@
-[buildPlans.IosevkaCustom]
-family = "Iosevka Custom"
+[buildPlans.IosevkaMyCustomSerif]
+family = "Iosevka Custom Serif Maku"
 spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-  [buildPlans.IosevkaCustom.variants]
+  [buildPlans.IosevkaMyCustomSerif.variants]
   inherits = "ss12"
 
-    [buildPlans.IosevkaCustom.variants.design]
+    [buildPlans.IosevkaMyCustomSerif.variants.design]
     one = "base"
     two = "curly-neck-serifless"
     three = "two-arcs"
