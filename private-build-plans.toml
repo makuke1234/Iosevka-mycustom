@@ -1,28 +1,36 @@
-[buildPlans.IosevkaCustomSlab]
-family = "Iosevka Custom Slab Maku"
+[buildPlans.IosevkaCustom]
+family = "Iosevka Custom"
 spacing = "normal"
-serifs = "slab"
+serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-  [buildPlans.IosevkaCustomSlab.variants]
+  [buildPlans.IosevkaCustom.variants]
   inherits = "ss12"
 
-    [buildPlans.IosevkaCustomSlab.variants.design]
+    [buildPlans.IosevkaCustom.variants.design]
+    one = "base"
+    two = "curly-neck-serifless"
+    three = "two-arcs"
+    four = "closed-serifless"
+    five = "oblique-arched-serifless"
     six = "closed-contour"
+    seven = "bend-serifless"
     eight = "two-circles"
     nine = "closed-contour"
-    capital-a = "round-top-base-serifed"
-    capital-g = "toothed-serifless-capped"
-    capital-j = "serifed-both-sides"
-    capital-m = "hanging-serifed"
-    capital-q = "crossing-curly-tailed"
-    capital-w = "straight-vertical-sides-serifed"
-    a = "double-storey-tailed"
-    g = "single-storey-serifed"
-    i = "tailed-serifed"
-    l = "tailed-serifed"
-    m = "earless-corner-double-arch-short-leg-serifed"
-    u = "tailed-serifed"
-    w = "rounded-vertical-sides-serifed"
-    y = "cursive-serifed"
+    zero = "oval-dotted"
+    capital-a = "round-top-serifless"
+    capital-g = "toothed-serifless-hooked"
+    capital-j = "serifed"
+    capital-m = "hanging-serifless"
+    capital-q = "curly-tailed"
+    capital-w = "straight-vertical-sides-serifless"
+    f = "serifless"
+    g = "single-storey-serifless"
+    i = "tailed"
+    j = "serifless"
+    l = "tailed"
+    m = "earless-corner-double-arch-short-leg-serifless"
+    t = "bent-hook"
+    w = "rounded-vertical-sides-serifless"
+    y = "cursive-flat-hook-serifless"
