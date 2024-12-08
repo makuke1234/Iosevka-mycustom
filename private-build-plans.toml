@@ -24,6 +24,9 @@ exportGlyphNames = false
     w = "rounded-vertical-sides-serifless"
     y = "cursive-flat-hook-serifless"
 
+[collectPlans.IosevkaCustomSans]
+from = ["IosevkaCustomSans"]
+
 [buildPlans.IosevkaCustomSlab]
 family = "Iosevka Custom Slab Maku"
 spacing = "normal"
@@ -52,3 +55,6 @@ exportGlyphNames = false
     u = "tailed-serifed"
     w = "rounded-vertical-sides-serifed"
     y = "cursive-serifed"
+
+[collectPlans.IosevkaCustomSlab]
+from = ["IosevkaCustomSlab"]
