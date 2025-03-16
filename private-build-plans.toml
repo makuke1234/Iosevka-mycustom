@@ -5,27 +5,60 @@ serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-  [buildPlans.IosevkaCustomSans.variants]
-  inherits = "ss12"
+[buildPlans.IosevkaCustomSans.variants]
+inherits = "ss12"
 
-    [buildPlans.IosevkaCustomSans.variants.design]
-    six = "closed-contour"
-    nine = "closed-contour"
-	zero = "slashed"
-    capital-a = "round-top-serifless"
-    capital-g = "toothed-serifless-hooked"
-    capital-m = "hanging-serifless"
-    capital-w = "straight-vertical-sides-serifless"
-    g = "single-storey-serifless"
-    i = "tailed"
-    j = "serifless"
-    l = "flat-tailed"
-    t = "bent-hook"
-    w = "rounded-vertical-sides-serifless"
-    y = "cursive-flat-hook-serifless"
+[buildPlans.IosevkaCustomSans.variants.design]
+six = "closed-contour"
+nine = "closed-contour"
+zero = "slashed"
+capital-a = "round-top-serifless"
+capital-g = "toothed-serifless-hooked"
+capital-m = "hanging-serifless"
+capital-w = "straight-vertical-sides-serifless"
+g = "single-storey-serifless"
+i = "tailed"
+j = "serifless"
+l = "flat-tailed"
+t = "bent-hook"
+w = "rounded-vertical-sides-serifless"
+y = "cursive-flat-hook-serifless"
 
 [collectPlans.IosevkaCustomSans]
 from = ["IosevkaCustomSans"]
+
+
+
+[buildPlans.IosevkaCustomSansTailedL]
+family = "Iosevka Custom Sans Maku"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.IosevkaCustomSansTailedL.variants]
+inherits = "ss12"
+
+[buildPlans.IosevkaCustomSansTailedL.variants.design]
+six = "closed-contour"
+nine = "closed-contour"
+zero = "slashed"
+capital-a = "round-top-serifless"
+capital-g = "toothed-serifless-hooked"
+capital-m = "hanging-serifless"
+capital-w = "straight-vertical-sides-serifless"
+g = "single-storey-serifless"
+i = "tailed"
+j = "serifless"
+l = "tailed"
+t = "bent-hook"
+w = "rounded-vertical-sides-serifless"
+y = "cursive-flat-hook-serifless"
+
+[collectPlans.IosevkaCustomSansTailedL]
+from = ["IosevkaCustomSansTailedL"]
+
+
 
 [buildPlans.IosevkaCustomSlab]
 family = "Iosevka Custom Slab Maku"
@@ -34,27 +67,62 @@ serifs = "slab"
 noCvSs = true
 exportGlyphNames = false
 
-  [buildPlans.IosevkaCustomSlab.variants]
-  inherits = "ss12"
+[buildPlans.IosevkaCustomSlab.variants]
+inherits = "ss12"
 
-    [buildPlans.IosevkaCustomSlab.variants.design]
-	three = "flat-top-serifed"
-    six = "closed-contour"
-    eight = "two-circles"
-    nine = "closed-contour"
-	zero = "slashed"
-    capital-a = "round-top-base-serifed"
-    capital-g = "toothed-serifless-capped"
-    capital-j = "serifed-both-sides"
-    capital-m = "hanging-serifed"
-    capital-q = "crossing-curly-tailed"
-    capital-w = "straight-vertical-sides-serifed"
-    a = "double-storey-tailed"
-    g = "single-storey-serifed"
-    i = "tailed-serifed"
-    u = "tailed-serifed"
-    w = "rounded-vertical-sides-serifed"
-    y = "cursive-serifed"
+[buildPlans.IosevkaCustomSlab.variants.design]
+three = "flat-top-serifed"
+six = "closed-contour"
+eight = "two-circles"
+nine = "closed-contour"
+zero = "slashed"
+capital-a = "round-top-base-serifed"
+capital-g = "toothed-serifless-capped"
+capital-j = "serifed-both-sides"
+capital-m = "hanging-serifed"
+capital-q = "crossing-curly-tailed"
+capital-w = "straight-vertical-sides-serifed"
+a = "double-storey-tailed"
+g = "single-storey-serifed"
+i = "tailed-serifed"
+u = "tailed-serifed"
+w = "rounded-vertical-sides-serifed"
+y = "cursive-serifed"
 
 [collectPlans.IosevkaCustomSlab]
 from = ["IosevkaCustomSlab"]
+
+
+
+[buildPlans.IosevkaCustomSlabTailedL]
+family = "Iosevka Custom Slab Maku"
+spacing = "normal"
+serifs = "slab"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.IosevkaCustomSlabTailedL.variants]
+inherits = "ss12"
+
+[buildPlans.IosevkaCustomSlabTailedL.variants.design]
+three = "flat-top-serifed"
+six = "closed-contour"
+eight = "two-circles"
+nine = "closed-contour"
+zero = "slashed"
+capital-a = "round-top-base-serifed"
+capital-g = "toothed-serifless-capped"
+capital-j = "serifed-both-sides"
+capital-m = "hanging-serifed"
+capital-q = "crossing-curly-tailed"
+capital-w = "straight-vertical-sides-serifed"
+a = "double-storey-tailed"
+g = "single-storey-serifed"
+i = "tailed-serifed"
+l = "tailed-serifed"
+u = "tailed-serifed"
+w = "rounded-vertical-sides-serifed"
+y = "cursive-serifed"
+
+[collectPlans.IosevkaCustomSlabTailedL]
+from = ["IosevkaCustomSlabTailedL"]
