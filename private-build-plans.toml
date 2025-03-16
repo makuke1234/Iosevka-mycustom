@@ -30,7 +30,7 @@ from = ["IosevkaCustomSans"]
 
 
 [buildPlans.IosevkaCustomSansTailedL]
-family = "Iosevka Custom Sans Maku"
+family = "Iosevka Custom Sans Tailed l Maku"
 spacing = "normal"
 serifs = "sans"
 noCvSs = true
@@ -95,7 +95,7 @@ from = ["IosevkaCustomSlab"]
 
 
 [buildPlans.IosevkaCustomSlabTailedL]
-family = "Iosevka Custom Slab Maku"
+family = "Iosevka Custom Slab Tailed l Maku"
 spacing = "normal"
 serifs = "slab"
 noCvSs = true
